@@ -174,8 +174,8 @@ footer .copyright {
 }
 
 .about-content {
-  padding-right: 5%;
-  padding-left: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
   min-height: 80vh;
   display: flex;
   flex-direction: row;
@@ -196,7 +196,12 @@ footer .copyright {
   box-shadow: -0.2rem 0.2rem 0px #d035dd;
 }
 
+.contact-section {
+  margin-left: 20px;
+}
+
 .about-section {
+  margin-right: 20px;
   overflow-y: auto;
   padding: 2.5%;
   display: flex;
@@ -256,6 +261,7 @@ footer .copyright {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  height: 100%;
 }
 .profile-details a {
   font-size: 1.6rem;
@@ -311,12 +317,17 @@ footer .copyright {
   .about-content {
     flex-wrap: wrap;
   }
+  .about-content section {
+    width: 100%;
+  }
 
   .about-section {
     margin-bottom: 4rem;
+    margin-right: initial;
   }
 
   .contact-section {
+    margin-left: initial;
     margin-bottom: 1rem;
   }
 }
@@ -352,9 +363,10 @@ footer .copyright {
 .work {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   height: 20rem;
+  width: 100%;
   text-align: left;
   margin-bottom: 20px;
 }

@@ -147,10 +147,6 @@ footer .copyright {
   .work-details {
     width: 100%;
   }
-
-  .social-svg {
-    width: 50%;
-  }
 }
 @media screen and (min-width: 1920px) {
   .background-svg {

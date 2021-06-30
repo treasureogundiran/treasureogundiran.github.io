@@ -136,12 +136,8 @@ footer .copyright {
   }
 }
 @media screen and (max-width: 450px) {
-  footer {
-    padding-top: 20px;
-  }
-
   html {
-    font-size: 40%;
+    font-size: 45%;
   }
 
   .work-details {

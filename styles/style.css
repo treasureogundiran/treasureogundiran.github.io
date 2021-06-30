@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(#150316, #320536);
 }
 
@@ -111,6 +111,7 @@ footer .copyright {
 @media screen and (max-width: 1040px) {
   footer {
     padding: 1rem;
+    padding-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -127,7 +128,7 @@ footer .copyright {
   footer .copyright {
     text-align: center;
     flex: 1 1 1rem;
-    padding: 1rem;
+    padding-top: 0.5rem;
   }
 }
 @media screen and (max-width: 800px) {
@@ -136,10 +137,6 @@ footer .copyright {
   }
 }
 @media screen and (max-width: 450px) {
-  footer {
-    padding-top: 20px;
-  }
-
   html {
     font-size: 45%;
   }
@@ -199,12 +196,7 @@ footer .copyright {
   box-shadow: -0.2rem 0.2rem 0px #d035dd;
 }
 
-.contact-section {
-  margin: auto 2rem auto 2rem;
-}
-
 .about-section {
-  margin: auto 2rem auto 2rem;
   overflow-y: auto;
   padding: 2.5%;
   display: flex;
@@ -335,6 +327,7 @@ footer .copyright {
   box-shadow: -0.2rem 0.2rem 0px #d035dd;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 1rem;
   text-align: center;
   height: 80vh;
 }

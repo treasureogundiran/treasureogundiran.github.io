@@ -134,10 +134,6 @@ footer .copyright {
   html {
     font-size: 55%;
   }
-
-  .social-svg {
-    width: 50%;
-  }
 }
 @media screen and (max-width: 450px) {
   footer {
@@ -148,12 +144,12 @@ footer .copyright {
     font-size: 40%;
   }
 
-  .social-svg {
-    width: 25%;
-  }
-
   .work-details {
     width: 100%;
+  }
+
+  .social-svg {
+    width: 50%;
   }
 }
 @media screen and (min-width: 1920px) {

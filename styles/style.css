@@ -110,11 +110,10 @@ footer .copyright {
 }
 @media screen and (max-width: 1040px) {
   footer {
-    padding: 1rem;
-    padding-bottom: 0.5rem;
+    padding: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
     align-items: center;
   }
   footer .socials {
@@ -126,9 +125,10 @@ footer .copyright {
     align-items: flex-start;
   }
   footer .copyright {
+    font-size: 1.6rem;
     text-align: center;
     flex: 1 1 1rem;
-    padding-top: 0.5rem;
+    padding: auto;
   }
 }
 @media screen and (max-width: 800px) {
@@ -322,12 +322,13 @@ footer .copyright {
 }
 .work-content {
   overflow-y: auto;
-  padding: 2rem;
+  padding: auto;
+  padding-top: 20px;
   border: solid #53f3b0;
   box-shadow: -0.2rem 0.2rem 0px #d035dd;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-align: center;
   height: 80vh;
 }

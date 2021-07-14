@@ -548,7 +548,6 @@ footer .copyright a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 20rem;
   width: 100%;
   text-align: left;
   margin-bottom: 20px;
@@ -567,7 +566,7 @@ footer .copyright a {
 }
 
 .work img {
-  height: 100%;
+  height: 25rem;
   margin-left: 1rem;
   margin-right: 1rem;
   border-radius: 50%;
@@ -590,9 +589,9 @@ footer .copyright a {
   }
 }
 
-@media screen and (max-width: 300px) {
-  .work {
-    margin-bottom: 100px;
+@media screen and (max-width: 450px) {
+  .work img {
+    height: 15rem;
   }
 }
 

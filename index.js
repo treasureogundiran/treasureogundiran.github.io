@@ -13,14 +13,3 @@ btnLinks.forEach(btnLink => {
 let nameInput = document.querySelector(".name-input")
 let emailInput = document.querySelector(".email-input")
 let messageInput = document.querySelector(".message-input")
-let form = document.querySelector("#form-control")
-
-form.addEventListener('submit', onSubmit);
-function onSubmit(){
-    console.log("Form submitted!");
-}
-
-async function clearForm(){
-    await onSubmit();
-    form.reset();
-}
